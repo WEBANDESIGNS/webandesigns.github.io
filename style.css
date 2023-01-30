@@ -17,8 +17,9 @@ Version: 1.0
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-    background: rgb(60,60,242);
-    background: linear-gradient(90deg, rgba(60,60,242,1) 0%, rgba(98,245,230,1) 52%, rgba(60,60,242,1) 100%);
+    background: #43c6ac; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #43c6ac, #191654); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #43c6ac, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
   }
   
