@@ -1,3 +1,7 @@
+/* 
+Author: Gagan Deep
+Version: 2.1.0
+*/
 var spinCount = 0;
 function myfunction() {
   if (spinCount > 100) {
@@ -23,7 +27,7 @@ function myfunction() {
   
   if (deg >= 337 || deg < 22)
   {
-  document.getElementById("output").innerHTML = "Anyone Open to Volunteer"; 
+  document.getElementById("output").innerHTML = "Presenter for Today is Riley"; 
   }
   if (deg >= 22 && deg < 67)
   {
