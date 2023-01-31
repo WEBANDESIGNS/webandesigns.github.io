@@ -1,6 +1,10 @@
 /* 
 Author: Gagan Deep
-Version: 2.0
+Version: 2.1
+*/
+/* 
+Author: Gagan Deep
+Version: 1.0
 */
 *{
   box-sizing: border-box;
@@ -139,6 +143,19 @@ span b{
   }
 }
 
+#line {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  height: 50px;
+  width: 3px;
+  background: transparent;
+  z-index: 2;
+}
+
+#output {
+  text-align:center;  
+}
 .footer {
   position: fixed;
   bottom: 0;
