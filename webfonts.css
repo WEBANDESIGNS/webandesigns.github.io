@@ -1,0 +1,39 @@
+@font-face {
+  font-display: auto;
+  font-family: "Ameriprise Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/webfiles/latest/assets/adel/fonts/franklin-gothic-bk-woff2.woff2) format("woff2"), url(/webfiles/latest/assets/adel/fonts/franklin-gothic-bk-woff.woff) format("woff"), url(/cm/groups/platform/documents/webassets/franklin-gothic-bk-woff2.woff2) format("woff2"), url(/cm/groups/platform/documents/webassets/franklin-gothic-bk-woff.woff) format("woff")
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Ameriprise Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url(/webfiles/latest/assets/adel/fonts/franklin-gothic-bk-it-woff2.woff2) format("woff2"), url(/webfiles/latest/assets/adel/fonts/franklin-gothic-bk-it-woff.woff) format("woff"), url(/cm/groups/platform/documents/webassets/franklin-gothic-bk-it-woff2.woff2) format("woff2"), url(/cm/groups/platform/documents/webassets/franklin-gothic-bk-it-woff.woff) format("woff")
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Ameriprise Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url(/webfiles/latest/assets/adel/fonts/franklin-gothic-dm-woff2.woff2) format("woff2"), url(/webfiles/latest/assets/adel/fonts/franklin-gothic-dm-woff.woff) format("woff"), url(/cm/groups/platform/documents/webassets/franklin-gothic-dm-woff2.woff2) format("woff2"), url(/cm/groups/platform/documents/webassets/franklin-gothic-dm-woff.woff) format("woff")
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Ameriprise Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/webfiles/latest/assets/adel/fonts/publico-headline-roman-woff2.woff2) format("woff2"), url(/webfiles/latest/assets/adel/fonts/publico-headline-roman-woff.woff) format("woff"), url(/cm/groups/platform/documents/webassets/publico-headline-roman-woff2.woff2) format("woff2"), url(/cm/groups/platform/documents/webassets/publico-headline-roman-woff.woff) format("woff")
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Ameriprise Serif";
+  font-style: italic;
+  font-weight: 400;
+  src: url(/webfiles/latest/assets/adel/fonts/publico-headline-it-woff2.woff2) format("woff2"), url(/webfiles/latest/assets/adel/fonts/publico-headline-it-woff.woff) format("woff"), url(/cm/groups/platform/documents/webassets/publico-headline-it-woff2.woff2) format("woff2"), url(/cm/groups/platform/documents/webassets/publico-headline-it-woff.woff) format("woff")
+}
