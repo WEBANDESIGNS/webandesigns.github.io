@@ -7,6 +7,7 @@ Version: 2.1.0
   padding: 0;
   margin: 0;
   outline: none;
+  font-family: 'Frank Gothic', normal;
 }
 
 body{
@@ -14,12 +15,14 @@ body{
   overflow: hidden;
   background: #43c6ac; /* fallback for old browsers */
   background: rgb(67,198,172);
-  background: radial-gradient(circle, rgba(67,198,172,1) 16%, rgba(0,212,255,1) 46%, rgba(126,126,246,1) 100%);
+  /* background: radial-gradient(circle, rgba(67,198,172,1) 16%, rgba(0,212,255,1) 46%, rgba(126,126,246,1) 100%); */
+  background: radial-gradient(circle, #003D6D 16%, #003D6D 46%, #313130 100%);
   background-size: cover;
+  font-family: 'Publico', ;
 }
 
 .mainbox{
-  font-family: 'Poiret One', cursive;
+  font-family: 'Frank Gothic', normal;
   position: relative;
   display: flex;
   justify-content: center;
@@ -55,36 +58,27 @@ span{
 }
 .span1{
   clip-path: polygon(0 92%, 100% 50%, 0 8%);
-  background: #C6FFDD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #FDD835;  /* fallback for old browsers */
   top: 120px;
   left: 0;
 }
 .span2{
   clip-path: polygon(100% 92%, 0 50%, 100% 8%);
-  background: #30E8BF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #7FCBC4;  /* fallback for old browsers */
   top: 120px;
   right: 0;
 }
 .span3{
   clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-  background: #EF3B36;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #F06292;  /* fallback for old browsers */
   bottom: 0;
   left: 120px;
 }
 .span4{
   clip-path: polygon(50% 100%, 92% 0, 8% 0);
-  background: #5433FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00ACC1;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   top: 0;
   left: 120px;
@@ -129,7 +123,7 @@ span b{
   height: 75px;
   border-radius: 50%;
   border: 4px solid #fff;
-  background-color: #001aff;
+  background-color: #1274BB;
   color: #fff;
   box-shadow: 0 5px 20px #000;
   font-weight: bold;
